@@ -13,4 +13,6 @@ Plantillas APDF para desarrollar productos de software con agentes especializado
 - [Metodología APDF](METHODOLOGY.md)
 - [Catálogo de agentes, skills y paquetes](CATALOG.md)
 
-Cada plantilla incluye nueve roles, dieciséis skills, bancos de preguntas por rol, paquetes de conocimiento y cuestionarios DOCX/XLSX.
+Cada plantilla incluye diez roles, dieciocho skills, 230 preguntas base, dieciocho paquetes de dominio, paquetes técnicos y cuestionarios DOCX/XLSX.
+
+El Requirements Facilitator y la skill `explain-discovery-question` pueden reformular preguntas, explicar su intención y proporcionar ejemplos sin responder en nombre del usuario.

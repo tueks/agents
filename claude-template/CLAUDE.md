@@ -9,6 +9,8 @@ Follow `METHODOLOGY.md` and begin every task by reading `docs/status/product-sta
 - Delegate only bounded work that benefits from isolated context, specialized tools or independent review.
 - Use the matching question bank under `question-banks/` for each role.
 - Ask one to five related questions per turn and close by exit criteria.
+- If a question is unclear, use `explain-discovery-question` or the requirements facilitator to translate it, explain its impact and provide a fictional example.
+- Keep user answers separate from agent examples, suggestions and assumptions.
 - Invoke `create-guided-questionnaire` when more than 12 relevant questions remain, multiple participants must answer or the user requests offline completion.
 - Load only selected domain and technical packs from `knowledge-packs/`.
 - Treat catalog capabilities as hypotheses until the user approves them.
@@ -37,4 +39,3 @@ Follow `METHODOLOGY.md` and begin every task by reading `docs/status/product-sta
 ## Completion
 
 Work is complete only when acceptance, verification, documentation, deployment/rollback and QA release-gate requirements applicable to the change are satisfied.
-

@@ -12,7 +12,7 @@ Los paquetes complementan a los roles y workflows. No son agentes ni deben carga
 
 ## Catálogo inicial
 
-- Dominio: ERP, punto de venta, catálogo web y aplicación CRUD.
+- Dominio: ERP, punto de venta, catálogo web, CRUD, e-commerce, CRM, inventario/WMS, restaurante, reservas, marketplace, SaaS multi-tenant, logística, gestión documental, mesa de ayuda, LMS, RRHH, manufactura y servicio en campo.
 - Producto: discovery, priorización y métricas.
 - UX/UI: flujos transaccionales, dashboards, formularios y design systems.
 - Arquitectura: estilos, patrones distribuidos y documentación.
@@ -20,4 +20,3 @@ Los paquetes complementan a los roles y workflows. No son agentes ni deben carga
 - Frontend: arquitectura, estado, componentes y accesibilidad.
 - QA: estrategias basadas en riesgo y tipos de prueba.
 - Plataforma: topologías, CI/CD, observabilidad y resiliencia.
-

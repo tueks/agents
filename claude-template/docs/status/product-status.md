@@ -32,6 +32,7 @@ Pendiente de descubrimiento.
 | QA | No iniciado | — | Definir estrategia inicial |
 | Plataforma | No iniciado | — | Conocer ambientes y restricciones |
 | Documentación | No iniciado | — | Crear product overview |
+| Facilitación de requisitos | Disponible | `QUESTION-FACILITATION.md` | Aplicar cuando una pregunta requiera explicación o revisión |
 
 ## Decisiones aprobadas
 
@@ -48,4 +49,3 @@ Ninguno registrado.
 ## Próximo paso recomendado
 
 Ejecutar la skill `orchestrate-product-development` para iniciar el perfil de comunicación y la entrevista de Product Owner.
-

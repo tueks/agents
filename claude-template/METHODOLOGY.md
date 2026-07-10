@@ -47,6 +47,7 @@ No crear una skill por cada patrón o lenguaje. Utilizar una skill de selección
 | Platform Engineer | Diseñar ambientes, CI/CD, observabilidad y operación | Deployment plan y runbooks |
 | QA Engineer | Diseñar pruebas, trazabilidad, regresión y release gate | Test strategy y quality report |
 | Project Documentarian | Mantener una visión ligera y coherente del producto | Product overview y documentación indexada |
+| Requirements Facilitator | Traducir preguntas, facilitar respuestas y revisar claridad | Explicaciones, guías y mejoras de bancos |
 
 ## Perfil de comunicación
 
@@ -99,6 +100,8 @@ Cada rol posee un banco de preguntas y criterios de salida. El agente debe:
 5. Distinguir `required-now`, `required-before-build` y `optional`.
 6. Detectar contradicciones y presentar la decisión pendiente.
 7. Cerrar la entrevista cuando se satisfagan los criterios de salida, no cuando se agote el banco.
+
+Cuando el usuario no comprenda una pregunta, el orquestador o Requirements Facilitator debe reformularla, explicar qué decisión informa, mostrar cómo responder y proporcionar un ejemplo ficticio. La explicación nunca se registra como respuesta del usuario.
 
 Generar un cuestionario guiado cuando ocurra cualquiera de estas condiciones:
 
@@ -182,4 +185,3 @@ Los paquetes no toman decisiones automáticamente. Aportan criterios al rol que 
 - AWS, Architectural Decision Records: https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html
 - DORA, Continuous delivery: https://dora.dev/capabilities/continuous-delivery/
 - DORA, Test automation: https://dora.dev/capabilities/test-automation/
-

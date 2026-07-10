@@ -23,6 +23,7 @@ Develop this product through a validated MVP followed by explicit, versioned cha
 - `qa-engineer`: risk, test strategy, traceability and release gate.
 - `platform-engineer`: environments, CI/CD, observability and deployment.
 - `project-documentarian`: transversal overview, indexes and documentation health.
+- `requirements-facilitator`: question explanation, natural-language translation and question-bank review.
 
 Delegate only independent work or tasks that benefit from isolated context or read-only review. The orchestrator owns the consolidated user-facing response.
 
@@ -31,6 +32,8 @@ Delegate only independent work or tasks that benefit from isolated context or re
 - Each role uses its file under `question-banks/`.
 - Do not ask every question mechanically.
 - Interview in batches of one to five related questions.
+- If the user does not understand a question, explain its intent, impact, answer structure and a fictional example before continuing.
+- Never mix the user's answer with the agent's example or suggestion.
 - Generate DOCX/XLSX when more than 12 relevant questions remain, several people must answer, or the user wants offline completion.
 - Close a role only when its exit criteria are satisfied.
 
@@ -75,4 +78,3 @@ Keep this file as a map. Put detailed knowledge in the referenced documents and 
 - Deployment, observability and rollback are known.
 - QA records a release-gate result.
 - Product status identifies the next action.
-

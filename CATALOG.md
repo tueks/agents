@@ -11,6 +11,7 @@
 7. QA Engineer
 8. Platform Engineer
 9. Project Documentarian
+10. Requirements Facilitator
 
 ## Skills incluidas
 
@@ -30,6 +31,8 @@
 14. `apply-technical-expertise`
 15. `maintain-product-status`
 16. `assess-release-readiness`
+17. `explain-discovery-question`
+18. `review-question-bank`
 
 ## Bancos de preguntas
 
@@ -51,6 +54,20 @@ El libro XLSX contiene 230 preguntas candidatas y 53 criterios de salida. El age
 - Punto de venta
 - Catálogo web
 - Aplicación CRUD de negocio
+- Comercio electrónico
+- CRM y gestión comercial
+- Inventario y almacenes
+- Restaurante y servicio de alimentos
+- Reservas y citas
+- Marketplace
+- SaaS multi-tenant
+- Logística y entregas
+- Gestión documental y aprobaciones
+- Mesa de ayuda y tickets
+- LMS y educación
+- Recursos humanos y fuerza laboral
+- Manufactura y MRP
+- Servicio en campo
 
 ## Paquetes técnicos y transversales
 
@@ -66,4 +83,3 @@ El libro XLSX contiene 230 preguntas candidatas y 53 criterios de salida. El age
 ## Extensión recomendada
 
 Agregar primero knowledge packs para nuevos dominios, lenguajes o patrones. Crear una skill solo si cambia el procedimiento, y un agente solo si requiere contexto, permisos o revisión independiente.
-

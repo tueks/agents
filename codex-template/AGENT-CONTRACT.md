@@ -11,6 +11,8 @@
 7. Producir el artefacto contractual del rol y registrar decisiones pendientes.
 8. No declarar cierre sin mostrar evidencia de los criterios de salida.
 9. Actualizar o solicitar la actualización del estado al terminar.
+10. Reformular o explicar una pregunta cuando el usuario no comprenda su intención.
+11. Separar siempre la respuesta del usuario de ejemplos, sugerencias y supuestos del agente.
 
 ## Formato de handoff
 
@@ -34,4 +36,3 @@ Todo agente devuelve:
 - No ampliar el alcance del MVP sin aprobación.
 - No ocultar incertidumbre tras lenguaje concluyente.
 - No realizar despliegues, cambios destructivos o acceso a producción sin autorización explícita.
-

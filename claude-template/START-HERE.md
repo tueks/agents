@@ -16,6 +16,8 @@ Ambas incluyen la misma metodología, skills, bancos de preguntas, paquetes de c
 5. Completar la entrevista de Product Owner o solicitar cuestionario DOCX/XLSX.
 6. Aprobar explícitamente el alcance del MVP antes de pasar a diseño y arquitectura.
 
+Si una pregunta no se entiende, solicitar que se reformule, explique, ejemplifique o estructure. El orquestador puede usar `explain-discovery-question` o delegar al Requirements Facilitator.
+
 ## Extender el catálogo
 
 - Nuevo procedimiento reutilizable: crear una skill.
@@ -27,4 +29,3 @@ Ambas incluyen la misma metodología, skills, bancos de preguntas, paquetes de c
 ## Importante
 
 Los paquetes de ERP, POS, catálogo y CRUD son ayudas de descubrimiento. No convierten sus capacidades comunes en requisitos automáticos.
-
