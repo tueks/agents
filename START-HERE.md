@@ -9,12 +9,64 @@ Ambas incluyen la misma metodología, skills, bancos de preguntas, paquetes de c
 
 ## Cómo comenzar un proyecto
 
-1. Copiar el contenido de la plantilla elegida a la raíz de un repositorio nuevo o existente.
+1. Copiar el contenido completo de la plantilla elegida a la raíz de un repositorio nuevo o existente.
 2. Iniciar Codex o Claude Code en la raíz.
 3. Solicitar: `Inicia el proyecto usando orchestrate-product-development`.
 4. Responder el perfil de comunicación.
 5. Completar la entrevista de Product Owner o solicitar cuestionario DOCX/XLSX.
 6. Aprobar explícitamente el alcance del MVP antes de pasar a diseño y arquitectura.
+
+Para Claude Code:
+
+```bash
+cp -R agents/claude-template/. mi-nuevo-proyecto/
+```
+
+Para Codex:
+
+```bash
+cp -R agents/codex-template/. mi-nuevo-proyecto/
+```
+
+El punto final en `claude-template/.` o `codex-template/.` es intencional: copia también carpetas ocultas como `.claude/` o `.codex/`.
+
+## Cómo queda el repositorio destino
+
+En Claude Code, la raíz del proyecto debe quedar con esta forma general:
+
+```text
+mi-nuevo-proyecto/
+├── CLAUDE.md
+├── START-HERE.md
+├── METHODOLOGY.md
+├── CATALOG.md
+├── AGENT-CONTRACT.md
+├── QUESTION-FACILITATION.md
+├── .claude/
+│   └── agents/
+├── docs/
+├── knowledge-packs/
+└── question-banks/
+```
+
+En Codex, el equivalente usa `AGENTS.md` y `.codex/`:
+
+```text
+mi-nuevo-proyecto/
+├── AGENTS.md
+├── START-HERE.md
+├── METHODOLOGY.md
+├── CATALOG.md
+├── AGENT-CONTRACT.md
+├── QUESTION-FACILITATION.md
+├── .codex/
+│   └── agents/
+├── docs/
+├── knowledge-packs/
+└── question-banks/
+```
+
+Los archivos raíz son guías de operación de la metodología y de los agentes. La carpeta `docs/` contiene la documentación viva del producto: alcance, arquitectura, UX, QA, operaciones, versiones y estado.
 
 Si una pregunta no se entiende, solicitar que se reformule, explique, ejemplifique o estructure. El orquestador puede usar `explain-discovery-question` o delegar al Requirements Facilitator.
 
